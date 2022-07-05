@@ -7,7 +7,7 @@ add_definitions(-std=c++11 -O3)
 set(CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
 
-set(sources src/main.cpp src/LaneChanging.cpp src/LineKeeping.cpp
+set(sources src/main.cpp src/LaneChanging.cpp src/LaneKeeping.cpp
 			src/PathPlanner.cpp src/SensorFusion.cpp src/Trajectory.cpp
 			src/TrajectoryPool.cpp src/Vehicle.cpp src/Waypoints.cpp)
 
