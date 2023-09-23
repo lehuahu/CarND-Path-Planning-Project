@@ -4,7 +4,7 @@ pipeline {
     stage('') {
       steps {
         script {
-          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
+          echo "hello, this is a demo in jenkins file created by blue ocean."
         }
 
       }
